@@ -47,3 +47,8 @@ it('Math.random can be passed in as generator', () => {
     expect(diceResults1.total).toBeGreaterThanOrEqual(1);
     expect(diceResults1.total).toBeLessThanOrEqual(8);
 });
+it('toString of Dice roll with adjustment prints appropriately', () => {
+    const diceBag = DiceBag(seedrandom("StringRandomSeed1!"));
+    const result = diceBag.rollDice(4, 8, 1);
+    expect(result.toString()).toBe("4d8+1=[5,7,2,3]+1=18")
+})

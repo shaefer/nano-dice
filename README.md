@@ -1,8 +1,8 @@
 # Nano Dice
 
 [![Build Status](https://travis-ci.com/shaefer/nano-dice.svg?branch=master)](https://travis-ci.com/shaefer/nano-dice)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Coverage Status](https://coveralls.io/repos/github/shaefer/nano-dice/badge.svg?branch=master)](https://coveralls.io/github/shaefer/nano-dice?branch=master)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 **Nano-Dice** ✨
 
@@ -10,11 +10,8 @@ Lightweight Polyhedral Dice Roller
 
 # Features
 
-* **ES6/ESNext** - Write _ES6_ code and _Babel_ will transpile it to ES5 for backwards compatibility
-* **Test** - _Mocha_ with _Istanbul_ coverage
-* **Lint** - Preconfigured _ESlint_ with _Airbnb_ config
-* **CI** - _TravisCI_ configuration setup
-* **Minify** - Built code will be minified for performance
+* **rollDice** - simple function to roll dice and return results = rollDice(numOfDice, numOfSides, adjustment)
+* **DiceBag** - a small wrapper for you rollDice function along with a few convenience methods
 
 # Commands
 - `npm run clean` - Remove `lib/` directory
