@@ -24,6 +24,7 @@ Lightweight Polyhedral Dice Roller
 - `npm run test:examples` - Test written examples on pure JS for better understanding module usage.
 - `npm run lint` - Run ESlint with airbnb-config
 - `npm run cover` - Get coverage report for your code.
+- `npm run coveralls` - Generage coverage report and post to Coveralls site.
 - `npm run build` - Babel will transpile ES6 => ES5 and minify the code.
 - `npm run prepublish` - Hook for npm. Do all the checks before publishing your module.
 
