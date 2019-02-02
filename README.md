@@ -1,4 +1,4 @@
-# NPM Module Boilerplate
+# Nano Dice
 
 [![Build Status](https://travis-ci.com/shaefer/nano-dice.svg?branch=master)]
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
