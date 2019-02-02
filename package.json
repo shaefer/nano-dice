@@ -1,8 +1,8 @@
 {
   "name": "nano-dice",
   "version": "1.0.0",
-  "description": "Boilerplate for npm modules with ES6 features and syntax",
-  "main": "./lib/index.js",
+  "description": "Simple and Concise syntax to roll dice with modifiers and capture all the results with support for seeding by default",
+  "main": "./lib/Dice.js",
   "scripts": {
     "clean": "rimraf lib",
     "test": "npm run lint && npm run cover",
@@ -35,7 +35,6 @@
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.4.0",
-    "istanbul": "^1.0.0-alpha",
     "jest": "^24.0.0",
     "rimraf": "^2.6.2"
   },
