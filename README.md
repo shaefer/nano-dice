@@ -1,6 +1,6 @@
 # Nano Dice
 
-[![Build Status](https://travis-ci.com/shaefer/nano-dice.svg?branch=master)]
+[![Build Status](https://travis-ci.com/shaefer/nano-dice.svg?branch=master)](https://travis-ci.com/shaefer/nano-dice)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Coverage Status](https://coveralls.io/repos/github/shaefer/nano-dice/badge.svg?branch=master)](https://coveralls.io/github/shaefer/nano-dice?branch=master)
 
