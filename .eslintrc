@@ -1,0 +1,21 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "env": {
+    "mocha": true
+  },
+  "rules": {
+    "comma-dangle": ["error", "only-multiline"],
+    "linebreak-style": 0,
+    "semi": "warn",
+    "indent": 0,
+    "arrow-body-style": "off",
+    "arrow-parens": "off",
+    "prefer-template": "warn",
+    "no-use-before-define": "warn",
+    "no-nested-ternary": "off",
+    "object-shorthand": "warn",
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "max-len": ["error", 120]
+  }
+}
